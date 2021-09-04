@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Chat_Application_
 # Chat_Application_
 
-## New user can be added using chatengine : ---- https://chatengine.io/
+#### New user can be added or removed using chatengine : ---- https://chatengine.io/
 
-## NetlifyApp_Link : ------- https://chatapp2022.netlify.app/
+#### NetlifyApp_Link : ------- https://chatapp2022.netlify.app/
 
