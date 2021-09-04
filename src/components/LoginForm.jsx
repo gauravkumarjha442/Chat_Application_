@@ -1,10 +1,10 @@
-import React, { Component }  from 'react';
+import React, { }  from 'react';
 import { useState } from 'react';
 import axios from 'axios';
 
 const projectID = 'baf68cf1-90ab-449d-87d3-206f9a493d23';
 
-const Modal = () => {
+const LoginForm = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -22,10 +22,10 @@ const Modal = () => {
 
       window.location.reload();
       setError('');
-    } catch (err) {
-      setError('Oops, incorrect credentials.');
+    } catch (error) {
+       setError('Oops, incorrect credentials.');
     }
-  };
+  }
 
   return (
     <div className="wrapper">
@@ -39,12 +39,12 @@ const Modal = () => {
               <span>Start chatting</span>
             </button>
           </div>
+          <h2 className="error">{error}</h2>
         </form>
-        <h1>{error}</h1>
       </div>
     </div>
 
   );
 };
 
-export default Modal;
+export default LoginForm;
