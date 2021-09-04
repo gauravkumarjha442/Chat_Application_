@@ -69,7 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Chat_Application_
-# Chat_Application_
+
+##### origin already exists : $ git remote remove origin  // remove origin and add using SSH key
 
 #### New user can be added or removed using chatengine : ---- https://chatengine.io/
 
